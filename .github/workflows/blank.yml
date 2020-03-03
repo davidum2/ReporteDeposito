@@ -1,4 +1,4 @@
-name: CI
+name: Reportes
 
 on: [push]
 
@@ -8,10 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
+    - uses: buscar en una base de datos
+    - name: ejecuta un query
+      run: busca en una base de datos y regresa el resultado
+    - name: busqueda
       run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+        
